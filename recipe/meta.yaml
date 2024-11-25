@@ -20,7 +20,6 @@ requirements:
     - {{ stdlib('c') }}
     - capnproto
     - cargo-bundle-licenses
-    - lld  # [linux]
     - libprotobuf
 
 test:
