@@ -21,6 +21,7 @@ requirements:
     - capnproto
     - cargo-bundle-licenses
     - libprotobuf
+    - lld  # [linux]
 
 test:
   commands:
