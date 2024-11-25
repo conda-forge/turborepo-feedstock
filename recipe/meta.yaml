@@ -20,8 +20,8 @@ requirements:
     - {{ stdlib('c') }}
     - capnproto
     - cargo-bundle-licenses
-    - lld  # [linux]
     - libprotobuf
+    - lld  # [linux]
 
 test:
   commands:
