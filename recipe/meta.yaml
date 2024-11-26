@@ -1,5 +1,5 @@
 {% set name = "turborepo" %}
-{% set version = "2.3.1" %}
+{% set version = "2.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/vercel/turborepo/archive/v{{ version }}.tar.gz
-  sha256: 1443ff9128e1079a0edc92d3fe26f65e723ecfe40b1236c96b791ec40aef40c8
+  sha256: 412c4eeb9d3fff48b0cb4f35d917ffd9aedd904df2e6f44a83e9a8b02ae04f84
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: true  # [win]
 
 requirements:
   build:
