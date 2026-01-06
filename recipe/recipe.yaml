@@ -1,5 +1,5 @@
 context:
-  version: "2.7.2"
+  version: "2.7.3"
 
 package:
   name: turborepo
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/vercel/turborepo/archive/v${{ version }}.tar.gz
-  sha256: 7edb90764dd5b16b609a972c0eff296fbe5c5f0a3d39538fe5c429adbcc42c52
+  sha256: faad4abd2ca37765ae447ece2b793fb4a1b3584fc3aa1a4ce3079cdea65c06e3
 
 build:
   number: 0
